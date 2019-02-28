@@ -182,7 +182,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "X\u8EF8"
+  m_Text: "Z\u8EF8"
 --- !u!222 &157332010
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1170,7 +1170,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1363441723}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 80, y: 30, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1209,6 +1209,7 @@ MonoBehaviour:
   inputX: {fileID: 0}
   inputY: {fileID: 0}
   inputZ: {fileID: 0}
+  Moveangle: {fileID: 0}
   text: {fileID: 0}
 --- !u!4 &1485810203
 Transform:
@@ -1435,7 +1436,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "X\u8EF8"
+  m_Text: "Y\u8EF8"
 --- !u!222 &1547122804
 CanvasRenderer:
   m_ObjectHideFlags: 0
