@@ -46,7 +46,7 @@ public class GameController : MonoBehaviour
         start.onClick.AddListener(Action);
     }
     void Action() {
-        transform.RotateAround(point, transform.up, angle);
+        transform.Rotate(point, angle);
 
     }
 
